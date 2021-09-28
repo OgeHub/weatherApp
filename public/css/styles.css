@@ -1,0 +1,134 @@
+body {
+    background: #FDD2BF;
+    text-align: center;
+    color: #3D087B;
+    font-family: Arimo;
+}
+
+.top-bar {
+    background-color: #3D087B;
+    color: #FEF1E6;
+    border-radius: 10px;
+    padding: 7px;
+    width: 23rem; 
+    margin-left: 30rem;
+    margin-top: 1.5rem;
+    font-family: Lobster;
+}
+
+.intro {
+ padding: 10px;
+ line-height: 30px;
+}
+
+
+.city-input {
+    border-radius: 10px;
+    border: 2px solid #3D087B;
+    box-shadow: 0 0 12px 7px #f8937d;
+    padding: 10px;
+    margin: 1rem 27.2rem;
+    display: block;
+    width: 9.5rem;
+}
+
+.city-input:focus {
+    outline: none;
+}
+
+.home-input {
+    margin: 2rem 10rem 7rem;
+}
+
+.btn-input {
+    width: 5.8rem;
+    background: #3D087B;
+    color: #FEF1E6;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: 800;
+    margin: 1rem 27.2rem;
+    border: 0;
+    display: block;
+}
+
+.btn-input:hover {
+    background-color: #f8937d;
+    color: #3D087B;
+}
+
+.wea-image {
+    width: 12.5rem;
+}
+
+.div-description {
+    margin: 1rem 0 7rem;
+}
+
+.wea-description {
+    text-transform: capitalize;
+}
+
+.heart {
+    color: red;
+}
+
+@media only screen and (max-width: 452px) {
+.top-bar {
+    margin-left: 5rem;
+    padding: 4px;
+    font-size: 1.2rem;
+    width: 10rem;
+}
+
+.home-input {
+    margin: 2rem 1rem 4rem;
+}
+
+.home-input > h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.city-input {
+    width: 4.4rem;
+    margin: 0.4rem 3.7rem 0.4rem 5.2rem;
+    border: 1.5px solid #3D087B;
+    box-shadow: 0 0 9px 5px #f8937d;
+    padding: 5px;
+    font-size: 0.7rem;
+}
+
+.btn-input {
+    width: 2.7rem;
+    margin: 0.4rem 3.7rem 0.4rem 5.2rem;
+    font-size: 0.6rem;
+    padding: 5px;
+    font-weight: 550;
+}
+
+.btn-input:hover {
+    background-color: #f8937d;
+    color: #3D087B;
+}
+
+.intro {
+    font-size: 0.8rem;
+    line-height: 20px;
+    padding: 5px;
+    margin: 0;
+    font-weight: 600;
+}
+
+.wea-image {
+    width: 5.5rem;
+}
+
+.div-description > h3 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+footer {
+    font-size: 0.5rem;
+}
+  }

@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") -%> 
+
+
+<div>
+    <h3 class="intro"> Stay updated with the current weather conditions <br> in various cities of the world.</h3>
+    <form action="/weather" method="POST">
+        <div class="home-input">
+        <h3>Enter City's Name</h3>
+        <input type="text" placeholder="City's Name" name="cityName" class="city-input" autocomplete="off">
+        <button type="submit" class="btn-input">Submit</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+
+<%- include("partials/footer.ejs") -%> 

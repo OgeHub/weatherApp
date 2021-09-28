@@ -1,0 +1,19 @@
+<%- include("partials/header.ejs") -%> 
+
+<div>
+    <img src="<%= imageURL %>" alt="Weather Image" class="wea-image" >
+<div class="div-description">
+    <h3> <span class="wea-description"><%= weatherDescription %> </span> in <span class="wea-description"><%= cityName %></span>, <br> 
+        with Temperature of <%= temperature %>℃ and Humidity of <%= weatherHumidity %>% </h3>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+<%- include("partials/footer.ejs") -%> 
