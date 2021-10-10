@@ -16,9 +16,14 @@ body {
     font-family: Lobster;
 }
 
+.front-div {
+    margin: 1rem 0 10rem;
+}
+
 .intro {
  padding: 10px;
  line-height: 30px;
+ margin-bottom: 5rem;
 }
 
 
@@ -27,7 +32,7 @@ body {
     border: 2px solid #3D087B;
     box-shadow: 0 0 12px 7px #f8937d;
     padding: 10px;
-    margin: 1rem 27.2rem;
+    margin: 0 27.2rem 3rem;
     display: block;
     width: 9.5rem;
 }
@@ -67,6 +72,24 @@ body {
 
 .wea-description {
     text-transform: capitalize;
+}
+
+.btn-back {
+    width: 6.2rem;
+    background: #3D087B;
+    color: #FEF1E6;
+    border-radius: 10px;
+    padding: 7px;
+    font-weight: 800;
+    margin: 1rem 33.3rem 5rem;
+    border: 0;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-back:hover {
+    background-color: #f8937d;
+    color: #3D087B;
 }
 
 .heart {
@@ -109,6 +132,11 @@ body {
 .btn-input:hover {
     background-color: #f8937d;
     color: #3D087B;
+}
+
+.btn-back {
+    margin: 0.4rem 3.7rem 4.5rem 5.2rem;
+    font-size: 0.6rem;
 }
 
 .intro {
