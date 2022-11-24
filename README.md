@@ -1,5 +1,7 @@
 # weatherApp
 
-weatherApp is a web application that can be used to get the **weather description**, **temperature**, and **humidity** of various cities of the world.
+weatherApp is a web application that can be used to get the **weather description**, **temperature**, and **humidity** of various cities in the world.
 
-*check it out* https://city-wea.herokuapp.com/
+*URL*: https://weather-city.up.railway.app/  
+
+
