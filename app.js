@@ -30,7 +30,7 @@ app.post("/weather", (req,res) => {
             temperature = weatherData.main.temp;
             weatherDescription = weatherData.weather[0].description;
             weatherImage = weatherData.weather[0].icon;
-            imageURL = "http://openweathermap.org/img/wn/" + weatherImage + "@2x.png";
+            imageURL = "https://openweathermap.org/img/wn/" + weatherImage + "@2x.png";
             weatherHumidity = weatherData.main.humidity;
 
             res.render("result", {
