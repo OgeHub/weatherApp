@@ -1,20 +1,16 @@
-<%- include("partials/header.ejs") -%> 
+<%- include("partials/header.ejs") -%>
 
 <div>
-    <img src="<%= imageURL %>" alt="Weather Image" class="wea-image" >
-<div class="div-description">
-    <h3> <span class="wea-description"><%= weatherDescription %> </span> in <span class="wea-description"><%= cityName %></span>, <br> 
-        with Temperature of <%= temperature %>℃ and Humidity of <%= weatherHumidity %>% </h3>
+  <img src="<%= imageURL %>" alt="Weather Image" class="wea-image" />
+  <div class="div-description">
+    <h3>
+      <span class="wea-description"><%= weatherDescription %> </span> in
+      <span class="wea-description"><%= cityName %></span>, <br />
+      with Temperature of <%= temperature %>℃ and Humidity of <%=
+      weatherHumidity %>%
+    </h3>
+  </div>
+  <a href="/" role="button" class="btn-back">Check for another City</a>
 </div>
-<a href="/" role="button" class="btn-back">Check for another City</a>
-</div>
 
-
-
-
-
-
-
-
-
-<%- include("partials/footer.ejs") -%> 
+<%- include("partials/footer.ejs") -%>
